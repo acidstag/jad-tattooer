@@ -88,7 +88,12 @@ const Scene = () => {
 
   return (
     <Suspense fallback={
-      <Html style={{ fontSize: '6vw', whiteSpace: 'nowrap', color: 'white' }} center>
+      <Html style={{
+        fontSize: '6vw',
+        whiteSpace: 'nowrap',
+        color: 'white',
+        fontFamily: 'OldeEnglish, Georgia, serif'
+      }} center>
         Loading...
       </Html>
     }>
